@@ -99,9 +99,10 @@ def get_weather(city, api_key):
 
 
 
-API_KEY = "3f9a34496884483ca68d7358c50d3f16"
+
 # Récupérer la clé API (à placer dans .env ou dans les secrets Streamlit)
-#API_KEY = os.getenv('OPENWEATHER_API_KEY', '')  # ou st.secrets["OPENWEATHER_API_KEY"] en prod
+#API_KEY = os.getenv('OPENWEATHER_API_KEY', '')  # ou 
+st.secrets["OPENWEATHER_API_KEY"] #en prod
 
 # --- Sidebar : paramètres météo du jour ---
 st.sidebar.header("📋 Données météo du jour")
