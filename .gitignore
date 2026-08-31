@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Streamlit secrets (sensible)
+.streamlit/secrets.toml
+
+# Model files (optionnel, si vous voulez les committer via Git LFS)
+*.h5
+*.pt
+*.onnx
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.cache
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache (si vous utilisez `st.cache_data`)
+.streamlit/cache/
+
+# Jupyter notebooks (si vous avez des notebooks dans le projet, vous pouvez les exclure)
+*.ipynb
+.ipynb_checkpoints/
+
+# Environment variables (si vous utilisez un fichier .env)
+.env
+.env.local
